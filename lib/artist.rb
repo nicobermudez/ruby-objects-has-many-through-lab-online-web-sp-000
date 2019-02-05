@@ -4,7 +4,7 @@ class Artist
   @@all = []
 
   def initialize(name)
-    @name=name
+    @name = name
     @@all << self
   end
 
@@ -17,10 +17,6 @@ class Artist
   end
 
   def songs
-    Song.all.select {|song| song.artist == artist}
+    Song.all.select { |song| song.artist == self }
   end
-
-  def genres
-  end
-
 end
