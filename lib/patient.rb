@@ -12,11 +12,10 @@ class Patient
     @@all << self
   end
 
-  def appointments 
+  def appointments
   end
 
-  def doctors 
+  def doctors
   end
-
-
+  
 end
