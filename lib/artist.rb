@@ -12,8 +12,8 @@ def self.all
   @@all
 end
 
-def new_song(song, genre)
-  Song.new(song, self, genre)
+def new_song(name, genre)
+  Song.new(name, self, genre)
 end
 
 def songs
