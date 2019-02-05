@@ -13,7 +13,7 @@ def self.all
 end
 
 def new_song(song, genre)
-  Song.new(sogn, self, genre)
+  Song.new(song, self, genre)
 end
 
 def songs
