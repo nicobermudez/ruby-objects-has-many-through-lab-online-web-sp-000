@@ -13,13 +13,4 @@ class Appointment
     @date=date
     @@all << self
   end
-
-  def patient
-    
-  end
-
-  def doctor
-  end
-
-
 end
